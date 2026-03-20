@@ -1,0 +1,45 @@
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+
+# Common credential and certificate files
+*.pem
+*.key
+*.pfx
+*.cer
+*.crt
+
+# Secret-bearing filenames
+*secret*
+*secrets*
+*credential*
+*credentials*
+*token*
+
+# Internal documentation and diagrams
+internal-docs/
+*.drawio
+
+# Python and local development artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# VS Code and editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
